@@ -1,0 +1,17 @@
+---
+import Logo from "./Logo.astro";
+import Nav from "./Nav.astro";
+import InfoButton from "./InfoButton.astro";
+---
+
+<header class="flex flex-col gap-2 px-10 py-5 mx-auto h-16 w-screen">
+    <div class="flex justify-between items-center">
+        <div class="flex gap-4">
+            <Logo />
+            <InfoButton logo="mdi:whatsapp">+5356966805</InfoButton>
+            <InfoButton logo="mdi:email">webotsolutions.52@gmail.com</InfoButton
+            >
+        </div>
+        <Nav />
+    </div>
+</header>
